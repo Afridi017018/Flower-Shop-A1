@@ -170,12 +170,12 @@ width: 100%;
 .input-sec{
     /* background-color: rgb(248, 220, 225); */
     text-align: center;
-    margin-top: 80px; 
+    /* margin-top: 0px;  */
     /* margin-bottom: 100px; */
     /* margin-top: 100px;
     height: 200px;
     
-    width: 100%;
+    /* width: 100%; */
     padding-top: 100px; */
 }
 
@@ -222,8 +222,8 @@ width: 100%;
 
 .input-container{
     background-image: url("./images/Rectangle\ 9.png");
-    margin-left: 10%;
-    margin-right: 8%;
+    margin-left: 10.5%;
+    margin-right: 8.4%;
     height: 250px;
     padding-top: 100px;
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ width: 100%;
 /* footer-section */
 .footer-sec{
     text-align: center;
-    margin-top: 90px; 
+    margin-top: 110px; 
     background-color: black;
     height: 300px;
     width: 100%;
