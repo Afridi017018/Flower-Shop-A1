@@ -1,0 +1,417 @@
+*{
+    margin: 0px;
+}
+
+
+/* banner section */
+.ban-sec{
+    background-color: rgb(248, 220, 225);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ban-details{
+    height: 270px;
+    width: 480px;
+}
+
+.ban-img{
+    height: 400px;
+    width: 450px;
+}
+
+.ban-img > img{
+    height: 525px;
+    width: 480px;
+}
+
+.ban-text-content{
+    font-size: 37px;
+    
+}
+
+.ban-text-paragraph{
+    color: rgb(129, 126, 126);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.ban-button > button{
+background-color:rgb(241, 133, 151);
+border: none;
+height: 40px;
+width: 130px;
+border-radius: 8px;
+color: white;
+}
+
+
+
+/* offer-section */
+.offer-sec{
+display: flex;
+background-color: rgb(248, 220, 225);
+margin-top: 100px;
+height: 400px;
+width: 100%;
+align-items: center;
+justify-content: center;
+width: 100%;
+}
+
+.offer-details{
+    width: 400px;
+}
+
+.offer-img{
+    /* width: 40%; */
+    margin-left: 80px;
+}
+
+.offer-img > img{
+    height: 300px;
+}
+
+.offer-text-content{
+    font-size: 20px;
+    
+}
+
+.offer-text-paragraph{
+    color: rgb(129, 126, 126);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.off{
+    color: rgb(201, 57, 81);
+}
+
+.offer-signup-button{
+    text-align: center;
+}
+
+.offer-signup-button > button{
+    background-color:rgb(241, 133, 151);
+    border: none;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    color: white;
+}
+
+
+
+
+/* instagram-section */
+.instagram-sec{
+    /* display: flex; */
+    /* background-color: rgb(248, 220, 225); */
+    margin-top: 100px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.instagram-details{
+    text-align: center;
+   margin-left: 30%;
+   margin-right: 30%;
+}
+
+.instagram-text-content{
+ text-align: center;
+ font-size: 20px;
+    
+}
+
+.instagram-text-paragraph{
+    color: rgb(129, 126, 126);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    /* text-align: center; */
+}
+
+.instagram-card-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* margin: 0px 0px 30px 30px; */
+}
+
+.instagram-card1, .instagram-card2,.instagram-card3,.instagram-card4{
+    background-color: aqua;
+    margin: 0px 0px 30px 30px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
+}
+
+.instagram-card1 > img, .instagram-card2 > img, .instagram-card3 > img, .instagram-card4 > img{
+    height: 250px;
+    width: 250px;
+}
+
+
+
+
+
+
+/* input-section */
+.input-sec{
+    /* background-color: rgb(248, 220, 225); */
+    text-align: center;
+    margin-top: 80px; 
+    /* margin-bottom: 100px; */
+    /* margin-top: 100px;
+    height: 200px;
+    
+    width: 100%;
+    padding-top: 100px; */
+}
+
+.input-details{
+ text-align: center;
+}
+
+.input-text-content{
+    font-size: 20px;
+}
+
+.input-paragraph-content{
+    color: rgb(129, 126, 126);
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.input-line-button{
+    /* background-color: aquamarine; */
+}
+
+.input-line-button > input{
+    height: 40px;
+    width: 480px;
+    border: none;
+    border-radius: 5px;
+}
+
+.input-line-button input::placeholder{
+    padding-left: 12px;
+}
+
+.input-line-button > button{
+    margin-left: 10px;
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color: rgb(243, 117, 138);
+    border: none;
+    border-radius: 5px;
+}
+
+.input-container{
+    background-image: url("./images/Rectangle\ 9.png");
+    margin-left: 10%;
+    margin-right: 8%;
+    height: 250px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* footer-section */
+.footer-sec{
+    text-align: center;
+    margin-top: 90px; 
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+
+.footer-details{
+/* text-align: center; */
+padding-top: 120px;
+/* height: 50%; */
+/* background-color: aliceblue; */
+}
+
+.footer-text-content{
+font-size: 20px;
+}
+
+.footer-text-content > h1{
+    color: white;
+}
+
+.flower-span{
+    color: rgb(223, 10, 10);
+}
+
+.footer-paragraph-content{
+padding-top: 10px;
+padding-bottom: 10px;
+font-size: 12px;
+text-align: center;
+/* background-color: aqua; */
+padding-left: 36%;
+padding-right: 36%;
+}
+.footer-paragraph-content p{
+    color: whitesmoke;
+}
+
+
+.footer-copyright p{
+    margin-top: 5px;
+    font-size: 11px;
+  color: rgb(165, 161, 161);
+}
+
+
+/* bonus-section */
+.bonus-section{
+    margin-top: 100px;
+    text-align: center;
+    /* background-color: aquamarine; */
+    height: 500px;
+    width: 100%;
+}
+
+.bonus-container{
+
+}
+
+.bonuse-text-content{
+font-size: 20px;
+}
+
+.bonuse-paragraph-content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    text-align: center;
+    /* background-color: aqua; */
+    padding-left: 36%;
+    padding-right: 36%;
+}
+
+.bonuse-paragraph-content p{
+    color: gray;
+}
+
+.bonus-cards{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.bonus-card1, .bonus-card2, .bonus-card3 {
+/* background-color: bisque; */
+height: 350px;
+width: 300px;
+margin: 5px;
+border-radius: 150px 150px 0px 0px;
+}
+
+
+.bonus-card1 img, .bonus-card2 img, .bonus-card3 img{
+    height: 280px;
+    padding-top: 70px;
+    width: 200px;
+}
+
+.bonus-card1{
+background-color: rgb(245, 199, 207);
+}
+.bonus-card2{
+    background-color: rgb(170, 219, 238);
+}
+.bonus-card3{
+    background-color: rgb(236, 248, 219);
+}
+
+.bonus-card-container{
+    /* background-color: blue; */
+}
+
+.bonus-card-footer{
+    margin: 15px;
+
+}
+
+.bonus-card-footer p{
+    text-decoration: underline;
+}
+
+
+
+
+/* gift-section */
+.gift-sec{
+    display: flex;
+    background-color:rgb(250, 254, 255);
+    margin-top: 100px;
+    height: 400px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    }
+    
+    .gift-details{
+        width: 400px;
+    }
+    
+    .gift-img{
+        /* width: 40%; */
+        margin-left: 80px;
+    }
+    
+    .gift-img > img{
+        height: 300px;
+    }
+    
+    .gift-text-content{
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    
+    .gift-text-paragraph{
+        color: rgb(129, 126, 126);
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 13px;
+        text-align: center;
+    }
+ 
+    .gift-buynow-button{
+        text-align: center;
+    }
+    
+    .gift-buynow-button > button{
+        background-color:lightskyblue;
+        border: none;
+        height: 40px;
+        width: 130px;
+        border-radius: 8px;
+        color: white;
+    }
